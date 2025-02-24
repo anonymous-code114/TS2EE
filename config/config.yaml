@@ -1,0 +1,19 @@
+network:
+  channel: 3
+  fine_tune_from: None
+  name: resnet18
+  projection_head:
+    mlp_hidden_size: 512
+    projection_size: 128
+optimizer:
+  params:
+    lr: 0.005
+    momentum: 0.9
+    weight_decay: 7.0e-05
+trainer:
+  batch_size: 64
+  checkpoint_interval: 5000
+  m: 0.9
+  max_epochs: 150
+  name: Epilepsy
+  num_workers: 64

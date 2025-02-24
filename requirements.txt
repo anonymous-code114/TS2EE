@@ -1,0 +1,10 @@
+aeon==0.7.1
+matplotlib==3.3.3
+numpy==1.23.5
+Pillow==10.4.0
+PyYAML==6.0.1
+scikit_learn==1.5.1
+tftb==0.1.4
+torch==2.0.1+cu118
+torchvision==0.15.2+cu118
+tqdm==4.65.0
